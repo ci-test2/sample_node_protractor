@@ -23,6 +23,12 @@ before_script:
 script:
   - protractor --version
   - protractor conf.js
+  
+after_success:
+  - echo "success"
+  
+after_failure:
+  - echo "failure"
 
 after_script:
   - "/etc/init.d/xvfb stop"
