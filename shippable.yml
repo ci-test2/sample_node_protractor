@@ -8,8 +8,8 @@ addons:
 
 services:
   - selenium
-  
-build_image: shippable/minv2
+
+build_image: drydock/u12node:tip
 
 install:
   - npm install -g istanbul
