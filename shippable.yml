@@ -6,8 +6,8 @@ node_js:
 addons:
   firefox: "19.0"
 
-services:
-  - selenium
+#services:
+#  - selenium
 
 build_image: drydock/u12nod:tip
 
