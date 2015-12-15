@@ -9,7 +9,7 @@ addons:
 services:
   - selenium
 
-build_image: drydock/u12node:tip
+build_image: drydock/u12nod:tip
 
 install:
   - npm install -g istanbul
