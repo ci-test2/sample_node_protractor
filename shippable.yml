@@ -8,6 +8,8 @@ addons:
 
 services:
   - selenium
+  
+build_image: shippable/minv2
 
 install:
   - npm install -g istanbul
